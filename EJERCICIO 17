@@ -3,7 +3,7 @@ Algoritmo LLEGADA_CIUDAD_B
 	Leer HH, MM, SS
 	Escribir "TIEMPO DE VIAJE EN SEGUNDOS"
 	Leer T
-	TOTAL <- HH * 3600 + MM * 60 + SS + T
+	TOTAL = HH * 3600 + MM * 60 + SS + T
 	H_FIN = trunc(TOTAL_SEG / 3600) MOD 24
 	M_FIN = trunc((TOTAL_SEG MOD 3600) / 60)
 	S_FIN = TOTAL_SEG MOD 60
