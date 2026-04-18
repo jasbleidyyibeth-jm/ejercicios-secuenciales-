@@ -1,0 +1,11 @@
+Algoritmo LLEGADA_CIUDAD_B
+	Escribir "HORA DE SALIDA (HORA, MINUTO, SEGUNDO)"
+	Leer HH, MM, SS
+	Escribir "TIEMPO DE VIAJE EN SEGUNDOS"
+	Leer T
+	TOTAL <- HH * 3600 + MM * 60 + SS + T
+	H_FIN = trunc(TOTAL_SEG / 3600) MOD 24
+	M_FIN = trunc((TOTAL_SEG MOD 3600) / 60)
+	S_FIN = TOTAL_SEG MOD 60
+	Escribir "LA HORA DE LLEGADA ES: ", H_FIN, ":", M_FIN, ":", S_FIN
+FinAlgoritmo
