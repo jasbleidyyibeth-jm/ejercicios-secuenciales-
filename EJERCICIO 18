@@ -1,0 +1,5 @@
+Algoritmo MOSTRAR_INICIALES
+	Escribir "DIGITE NOMBRES, PRIMER APELLIDO Y SEGUNDO APELLIDO"
+	Leer NOMS, APE1, APE2
+	Escribir "INICIALES: ", Subcadena(NOMS,0,0), Subcadena(APE1,0,0), Subcadena(APE2,0,0)
+FinAlgoritmo
