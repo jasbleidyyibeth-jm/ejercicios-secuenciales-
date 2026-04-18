@@ -3,8 +3,8 @@ Algoritmo INTERCAMBIO_A_B
 	Leer A
 	Escribir "DIGITE VALOR DE B"
 	Leer B
-	AB <- A
-	A <- B
-	B <- AB
+	AB = A
+	A = B
+	B = AB
 	Escribir "AHORA A VALE: ", A, " Y B VALE: ", B
 FinAlgoritmo
