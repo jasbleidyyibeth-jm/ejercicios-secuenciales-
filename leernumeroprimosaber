@@ -1,0 +1,26 @@
+//realice un programa que lea un numero entero y verifique si es primo o no.
+//a)desarrolle el diagrama de flujo a realizar
+//b)escriba manera descriptiva el punto a desarrollar 
+//c)desarrollelo en PSeInt 
+//d)suba el codigo a su repositorio
+Algoritmo verificacionnumeroprimo
+	Definir a , b  como entero
+	Definir primo Como Logico
+	Escribir "digite numero"
+	Leer a
+	primo=Verdadero
+	b= a -1
+	Mientras b>1 Hacer
+		//se divide el numero entre valores menores a el
+		si a / b = redon(a / b) Entonces
+			primo=Falso			
+		FinSi
+		b = b -1
+	FinMientras
+	si primo = Verdadero Entonces
+		Escribir "este numerito es primo"
+	SiNo
+		
+		Escribir "este numerito no es primo"
+	FinSi
+	FinAlgoritmo
